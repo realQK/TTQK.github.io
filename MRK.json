@@ -1,0 +1,16 @@
+{
+    "name": "MRK",
+    "description": "一個金髮帥哥",
+    "image": "https://your-image-url.com/image.png",
+    "attributes": [
+      {
+        "trait_type": "Trait 1",
+        "value": "Value 1"
+      },
+      {
+        "trait_type": "Trait 2",
+        "value": "Value 2"
+      }
+    ]
+  }
+  
