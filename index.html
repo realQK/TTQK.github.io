@@ -4,13 +4,11 @@
 <meta charset="UTF-8">
 <title>JSON Display</title>
 <script>
-// 当页面加载完成时，执行此函数
 window.onload = function() {
-  // 使用 fetch API 来加载 JSON 文件
+  // 使用远程URL替换本地文件路径
   fetch('MRK.json')
-    .then(response => response.json()) // 解析 JSON 数据
+    .then(response => response.json())
     .then(data => {
-      // 将 JSON 数据显示在网页上
       document.getElementById('jsonContent').innerHTML = JSON.stringify(data, null, 2);
     })
     .catch(error => console.error('Error loading JSON:', error));
@@ -19,7 +17,6 @@ window.onload = function() {
 </head>
 <body>
 <h1>My JSON Data</h1>
-<!-- 在这个 div 中显示 JSON 数据 -->
 <div id="jsonContent"></div>
 </body>
 </html>

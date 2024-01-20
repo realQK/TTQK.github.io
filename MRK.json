@@ -1,16 +1,17 @@
 {
-    "name": "MRK",
-    "description": "一個金髮帥哥",
-    "image": "https://your-image-url.com/image.png",
-    "attributes": [
-      {
-        "trait_type": "Trait 1",
-        "value": "Value 1"
-      },
-      {
-        "trait_type": "Trait 2",
-        "value": "Value 2"
-      }
+  "title": "Golden-Haired Handsome Man",
+  "description": "A digital art NFT featuring a handsome man with golden blonde hair, set in a futuristic and artistic background with elements of blockchain and digital aesthetics.",
+  "creator": "Your Name or Artist Alias",
+  "image": "URL_of_the_image_file",
+  "attributes": [
+    {"trait_type": "Hair Color", "value": "Golden Blonde"},
+    {"trait_type": "Eye Color", "value": "Blue"},
+    {"trait_type": "Background Theme", "value": "Futuristic Digital"}
+  ],
+  "ownership": {
+    "current_owner": "Owner's Name or Wallet Address",
+    "previous_owners": [
+      {"name": "Previous Owner Name or Wallet Address", "date_of_acquisition": "YYYY-MM-DD"}
     ]
   }
-  
+}
